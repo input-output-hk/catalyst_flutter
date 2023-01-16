@@ -1,7 +1,7 @@
 # Catalyst Analysis
 
 This package provides lint rules for Dart and Flutter which are used at [Catalyst @ IOG](https://github.com/input-output-hk).
-For more information, see the [complete list of options][analysis_options_yaml].
+For more information, see the [complete list of options](https://github.com/input-output-hk/catalyst-flutter/blob/main/packages/catalyst_analysis/lib/analysis_options.1.0.0.yaml).
 
 > This package was heavily inspired by .
 
