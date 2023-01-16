@@ -10,9 +10,9 @@ A collection of Catalyst packages and plugins for Flutter and Dart.
 
 ## Packages
 
-| Plugin | Pub | Documentation | View Source   |
-|--------|-----|---------------|---------------|
-
+| Name | Pub | Documentation | Android | iOS | Web | macOS | Windows | Linux |
+|--------|-----|---------------| ------- |-----|-------|-----|---------|-------|
+| [catalyst_analysis](packages/catalyst_analysis) | ![pub package](https://img.shields.io/pub/v/catalyst_analysis.svg) | TODO |✔️| ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
 
 ## Support
 
