@@ -1,16 +1,17 @@
-# Catalyst Analysis
+# 🧐 Catalyst Analysis
 
 This package provides lint rules for Dart and Flutter which are used at [Catalyst @ IOG](https://github.com/input-output-hk).
 For more information, see the [complete list of options](https://github.com/input-output-hk/catalyst-flutter/blob/main/packages/catalyst_analysis/lib/analysis_options.1.0.0.yaml).
 
-> This package was heavily inspired by .
+> This package was heavily inspired by [lint](https://pub.dev/packages/lints) and real-life experience building products with Dart and Flutter.
 
-- [Catalyst Analysis](#catalyst-analysis)
+- [🧐 Catalyst Analysis](#-catalyst-analysis)
   - [Usage](#usage)
   - [Suppressing Lints](#suppressing-lints)
     - [Line Level](#line-level)
     - [File Level](#file-level)
     - [Project Level](#project-level)
+  - [Evolving the lint sets](#evolving-the-lint-sets)
 
 ## Usage
 
@@ -70,3 +71,12 @@ linter:
   rules:
     public_member_api_docs: false
 ```
+## Evolving the lint sets
+
+As the Dart language and its ecosystem evolve, it is important to keep lint sets current by regularly updating them to reflect the best practices for writing Dart code. To accomplish this, we have an informal process in place:
+
+1. Individuals can submit an [issue](https://github.com/input-output-hk/catalyst-flutter/issues) to discuss potential changes to the lint sets (such as adding or removing a lint).Feedback is welcome from all Dart/Flutter users.
+
+2. Catalyst Engineering team meet periodically to review suggestions and make decisions on what to change.
+
+3. Once the updates are made, a new version of the package is published.
