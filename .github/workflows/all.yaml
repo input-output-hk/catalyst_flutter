@@ -50,3 +50,34 @@ jobs:
         run: |
           melos exec -c 1 --scope="*example*" -- \
             "flutter pub get"
+
+  format:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v3
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+          cache: true
+      - uses: bluefireteam/melos-action@v2
+      - uses: Homebrew/actions/setup-homebrew@master
+      - name: 'Install Tools'
+        run: |
+          flutter pub global activate flutter_plugin_tools
+          brew install swiftformat
+          brew install clang-format
+          brew link --overwrite --force clang-format
+      - name: 'Formatter version'
+        run: |
+          clang-format --version
+          swiftformat --version
+      - name: 'Dart, Java and Objective-C '
+        run: |
+          flutter pub global run flutter_plugin_tools format
+          ./.github/workflows/scripts/validate-formatting.sh
+      - name: 'Swift'
+        if: ${{ success() || failure() }}
+        run: |
+          swiftformat .
+          ./.github/workflows/scripts/validate-formatting.sh
