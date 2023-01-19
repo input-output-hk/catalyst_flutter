@@ -12,6 +12,7 @@ analyzer:
     - test/.test_coverage.dart
     - lib/generated_plugin_registrant.dart
 
+# The full list of lints: https://dart-lang.github.io/linter/lints/index.html
 linter:
   rules:
     - always_declare_return_types
