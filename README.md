@@ -7,7 +7,6 @@ A collection of Catalyst packages and plugins for Flutter and Dart.
   - [Support](#support)
   - [License](#license)
 
-
 ## Packages
 
 | Name | Pub | Documentation | Android | iOS | Web | macOS | Windows | Linux |
