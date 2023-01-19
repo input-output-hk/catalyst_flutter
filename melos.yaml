@@ -2,8 +2,9 @@ name: CatalystFlutter
 repository: https://github.com/input-output-hk/catalyst-flutter
 
 packages:
-  - packages/**
-  - 'tests/*'
+  - packages/*
+  - packages/*/*
+  - packages/*/*/*
 
 command:
   version:
@@ -19,6 +20,7 @@ command:
     # https://github.com/dart-lang/pub/issues/3404). Disabling this feature
     # makes the CI much more stable.
     runPubGetInParallel: false
+    usePubspecOverrides: true
 
 scripts:
   lint:all:
@@ -34,3 +36,12 @@ scripts:
     description: |
       Run `dart analyze` in all packages.
        - Note: you can also rely on your IDEs Dart Analysis / Issues window.
+  qualitycheck:
+    run: |
+      melos run clean:deep && \
+      melos clean && \
+      melos bootstrap && \
+      melos run lint:all && \
+      melos run build:all && \
+      melos run test:all
+    description: Run all targets generally expected in CI for a full local quality check.
