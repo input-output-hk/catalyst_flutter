@@ -6,6 +6,8 @@ A collection of Catalyst packages and plugins for Flutter and Dart.
 
 - [Catalyst Flutter](#catalyst-flutter)
   - [Packages](#packages)
+  - [Requirements](#requirements)
+  - [Boostrapping](#boostrapping)
   - [Support](#support)
   - [License](#license)
 
@@ -14,6 +16,28 @@ A collection of Catalyst packages and plugins for Flutter and Dart.
 | Name | Pub | Documentation | Android | iOS | Web | macOS | Windows | Linux |
 |--------|-----|---------------| ------- |-----|-------|-----|---------|-------|
 | [catalyst_analysis](packages/catalyst_analysis) | ![pub package](https://img.shields.io/pub/v/catalyst_analysis.svg) | TODO |✔️| ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
+
+## Requirements
+
+- Flutter: 3.7.1+
+- Dart: 2.19.1+
+- Ruby: 2.5+
+- Xcode: 14.2+
+- Android Studio: Android Studio Electric Eel | 2022.1.1 +
+- [Melos](https://melos.invertase.dev)
+- [Fastlane](https://fastlane.tools)
+- Flutter & Dart plugins:
+  - [Visual Studio Code](https://flutter.dev/docs/get-started/editor?tab=vscode)
+  - [Android Studio / IntelliJ](https://flutter.dev/docs/get-started/editor?tab=androidstudio)
+  - [Emacs](https://docs.flutter.dev/get-started/editor?tab=emacs)
+
+## Boostrapping
+
+```sh
+git clone https://github.com/input-output-hk/catalyst-flutter.git
+cd catalyst_flutter
+melos bootstrap
+```
 
 ## Support
 
