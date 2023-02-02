@@ -25,7 +25,6 @@ A collection of Catalyst packages and plugins for Flutter and Dart.
 - Xcode: 14.2+
 - Android Studio: Android Studio Electric Eel | 2022.1.1 +
 - [Melos](https://melos.invertase.dev)
-- [Fastlane](https://fastlane.tools)
 - Flutter & Dart plugins:
   - [Visual Studio Code](https://flutter.dev/docs/get-started/editor?tab=vscode)
   - [Android Studio / IntelliJ](https://flutter.dev/docs/get-started/editor?tab=androidstudio)
