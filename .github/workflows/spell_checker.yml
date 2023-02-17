@@ -1,4 +1,4 @@
-name: spell_checker
+name: Spell Checker
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -20,4 +20,4 @@ jobs:
         with:
           files: "**/*.{md,dart}"
           incremental_files_only: false
-          config: .github/cspell.json
+          config: ./.github/workflows/cspell.json
