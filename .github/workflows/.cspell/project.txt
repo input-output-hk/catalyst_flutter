@@ -5,6 +5,7 @@ cip
 cip15
 mainnet
 miniprotocolss
+mitigations
 nextest
 rustc
 rustdoc
