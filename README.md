@@ -3,6 +3,8 @@
 A collection of Catalyst packages and plugins for Flutter and Dart.
 
 [![All](https://github.com/input-output-hk/catalyst-flutter/actions/workflows/all.yaml/badge.svg?branch=main)](https://github.com/input-output-hk/catalyst-flutter/actions/workflows/all.yaml)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/input-output-hk/catalyst_flutter/badge)](https://api.securityscorecards.dev/projects/github.com/input-output-hk/catalyst_flutter)
+
 
 - [Catalyst Flutter](#catalyst-flutter)
   - [Packages](#packages)
