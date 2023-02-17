@@ -1,0 +1,12 @@
+1000
+blocksync
+chainsyn
+cip
+cip15
+mainnet
+miniprotocolss
+nextest
+rustc
+rustdoc
+surrealdb
+testnet
