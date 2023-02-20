@@ -56,7 +56,7 @@ Future<String> connect(String walletName) async {
     final addresses =
         usedAddresses.length > 0 ? usedAddresses : unusedAddresses;
 
-    return 'Wallet: ${wallet.name}.\nWallet Connected to Network ID: $networkId.\nWallet Balance: $walletBalance.\nAddess: $addresses.\nVoting key: $votingKey.\nCip-62: $cip62Api.';
+    return 'Wallet: ${wallet.name}.\nWallet Connected to Network ID: $networkId.\nWallet Balance: $walletBalance.\nAddress: $addresses.\nVoting key: $votingKey.\nCip-62: $cip62Api.';
   } catch (e) {
     throw Exception('Error connecting to wallet: $e');
   }
