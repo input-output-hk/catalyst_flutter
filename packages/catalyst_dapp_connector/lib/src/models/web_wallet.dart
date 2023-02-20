@@ -1,5 +1,5 @@
 import 'package:js/js.dart';
-import 'Governance.dart';
+import 'governance.dart';
 
 // FIXME: Ask Steven why we use the Wallet class if we have a WebWallet
 @JS()

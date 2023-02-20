@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:catalyst_dapp_connector/src/models/WebWallet.dart';
+import 'package:catalyst_dapp_connector/src/models/web_wallet.dart';
 
 @immutable
 class Wallet {
