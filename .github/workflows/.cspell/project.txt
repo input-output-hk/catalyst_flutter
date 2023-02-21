@@ -11,3 +11,6 @@ rustc
 rustdoc
 surrealdb
 testnet
+ccvault
+gerowallet
+nufi
