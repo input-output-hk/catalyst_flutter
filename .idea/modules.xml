@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/packages/catalyst_analysis/melos_catalyst_analysis.iml" filepath="$PROJECT_DIR$/packages/catalyst_analysis/melos_catalyst_analysis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/packages/catalyst_analysis/example/melos_example.iml" filepath="$PROJECT_DIR$/packages/catalyst_analysis/example/melos_example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages\\catalyst_analysis/melos_catalyst_analysis.iml" filepath="$PROJECT_DIR$/packages\\catalyst_analysis/melos_catalyst_analysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages\\catalyst_dapp_connector/melos_catalyst_dapp_connector.iml" filepath="$PROJECT_DIR$/packages\\catalyst_dapp_connector/melos_catalyst_dapp_connector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages\\catalyst_analysis\\example/melos_example.iml" filepath="$PROJECT_DIR$/packages\\catalyst_analysis\\example/melos_example.iml" />
       <module fileurl="file://$PROJECT_DIR$/melos_catalystflutter.iml" filepath="$PROJECT_DIR$/melos_catalystflutter.iml" />
     </modules>
   </component>
