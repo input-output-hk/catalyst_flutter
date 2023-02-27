@@ -15,3 +15,5 @@ ccvault
 gerowallet
 nufi
 nami
+xcworkspace
+xcassets

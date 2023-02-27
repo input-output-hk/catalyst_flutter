@@ -2,21 +2,26 @@ import 'package:flutter/material.dart';
 import 'package:catalyst_dapp_connector/catalyst_dapp_connector.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'My App',
+    return const MaterialApp(
+      title: 'Catalyst dApp connector',
       home: MyWidget(),
     );
   }
 }
 
 class MyWidget extends StatefulWidget {
+  const MyWidget({super.key});
+
   @override
+  // ignore: library_private_types_in_public_api
   _MyWidgetState createState() => _MyWidgetState();
 }
 
@@ -27,7 +32,7 @@ class _MyWidgetState extends State<MyWidget> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('My App'),
+        title: const Text('My App'),
       ),
       body: Center(
         child: Column(
@@ -46,9 +51,9 @@ class _MyWidgetState extends State<MyWidget> {
                   });
                 }
               },
-              child: Text('Connect to Nufi wallet'),
+              child: const Text('Connect to Nufi wallet'),
             ),
-            SizedBox(height: 16.0),
+            const SizedBox(height: 16.0),
             Text(_connectionStatus),
           ],
         ),
