@@ -1,0 +1,4 @@
+# melos_managed_dependency_overrides: catalyst_dapp_connector
+dependency_overrides:
+  catalyst_dapp_connector:
+    path: ..
