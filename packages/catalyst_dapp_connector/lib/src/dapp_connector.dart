@@ -1,4 +1,6 @@
 @JS('cardano')
+library cardano_wallet;
+
 import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 import 'package:catalyst_dapp_connector/src/models/wallet_model.dart';
@@ -12,7 +14,6 @@ external WebWallet get ccvault;
 external WebWallet get gerowallet;
 external WebWallet get nufi;
 
-// TODO: Is there a way to not hardcode wallets?
 WebWallet getWalletApi(String name) {
   switch (name) {
     case 'nufi':
@@ -32,7 +33,6 @@ Wallet version(String walletName) {
   }
 }
 
-// TODO: refactor from line 15
 Future<String> connect(String walletName) async {
   try {
     final wallet = getWalletApi(walletName);
@@ -48,7 +48,6 @@ Future<String> connect(String walletName) async {
     final networkId = await promiseToFuture(walletApi.getNetworkId());
     final walletBalance = await promiseToFuture(walletApi.getBalance());
 
-    //TODO: what if user want to use unused address which is connected to the same wallet
     final usedAddresses = await promiseToFuture(walletApi.getUsedAddresses());
     final unusedAddresses =
         await promiseToFuture(walletApi.getUnusedAddresses());

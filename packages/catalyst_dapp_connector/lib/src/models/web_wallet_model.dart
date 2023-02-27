@@ -1,7 +1,6 @@
 import 'package:js/js.dart';
 import 'governance_model.dart';
 
-// FIXME: Ask Steven why we use the Wallet class if we have a WebWallet
 @JS()
 class WebWallet {
   external String get name;
