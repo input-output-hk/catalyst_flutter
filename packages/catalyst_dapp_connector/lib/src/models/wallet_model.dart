@@ -1,5 +1,5 @@
-import 'package:flutter/foundation.dart';
 import 'package:catalyst_dapp_connector/src/models/web_wallet_model.dart';
+import 'package:flutter/foundation.dart';
 
 @immutable
 class Wallet {
@@ -22,6 +22,5 @@ class Wallet {
   }
 
   @override
-  String toString() =>
-      'Wallet(name: $name, apiVersion: $apiVersion, icon: $iconBase64)';
+  String toString() => 'Wallet(name: $name, apiVersion: $apiVersion, icon: $iconBase64)';
 }

@@ -1,12 +1,12 @@
 @JS('cardano')
 library cardano_wallet;
 
-import 'package:js/js.dart';
-import 'package:js/js_util.dart';
+import 'package:catalyst_dapp_connector/src/models/cip62_api_model.dart';
+import 'package:catalyst_dapp_connector/src/models/voting_credentials_model.dart';
 import 'package:catalyst_dapp_connector/src/models/wallet_model.dart';
 import 'package:catalyst_dapp_connector/src/models/web_wallet_model.dart';
-import 'package:catalyst_dapp_connector/src/models/voting_credentials_model.dart';
-import 'package:catalyst_dapp_connector/src/models/cip62_api_model.dart';
+import 'package:js/js.dart';
+import 'package:js/js_util.dart';
 
 external WebWallet get flint;
 external WebWallet get nami;
