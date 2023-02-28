@@ -14,7 +14,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_js: ^0.6.0
-  js: ^0.6.7
+  js: ^0.6.5
 
 dev_dependencies:
   catalyst_analysis:
