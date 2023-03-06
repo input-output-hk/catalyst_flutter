@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
 import 'package:catalyst_dapp_connector/catalyst_dapp_connector.dart';
+import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
@@ -41,7 +41,7 @@ class _MyWidgetState extends State<MyWidget> {
             ElevatedButton(
               onPressed: () async {
                 try {
-                  String status = await connect('nufi');
+                  final status = await connect('nufi');
                   setState(() {
                     _connectionStatus = status;
                   });
@@ -53,7 +53,7 @@ class _MyWidgetState extends State<MyWidget> {
               },
               child: const Text('Connect to Nufi wallet'),
             ),
-            const SizedBox(height: 16.0),
+            const SizedBox(height: 16),
             Text(_connectionStatus),
           ],
         ),
