@@ -1,0 +1,28 @@
+name: catalyst_dapp_connector_example
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  catalyst_dapp_connector:
+    path: ../
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  flutter_js: ^0.6.0
+  js: ^0.6.4
+
+dev_dependencies:
+  catalyst_analysis:
+    git:
+      url: git@github.com:input-output-hk/catalyst-flutter.git
+      path: packages/catalyst_analysis
+      ref: 4738b0387a681b9daf0e62dd099afaf7daf3700c
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

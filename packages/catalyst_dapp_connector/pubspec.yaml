@@ -1,0 +1,26 @@
+name: catalyst_dapp_connector
+description: A package that supports CIP-30 and CIP-62 functionality.
+version: 0.1.0
+repository: https://github.com/input-output-hk/catalyst-flutter
+issue_tracker: https://github.com/input-output-hk/catalyst-flutter/issues
+homepage: https://github.com/input-output-hk/catalyst-flutter
+documentation: https://github.com/input-output-hk/catalyst-flutter
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+  flutter: 3.7.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_js: ^0.6.0
+  js: ^0.6.5
+
+dev_dependencies:
+  catalyst_analysis:
+    git:
+      url: git@github.com:input-output-hk/catalyst-flutter.git
+      path: packages/catalyst_analysis
+      ref: 4738b0387a681b9daf0e62dd099afaf7daf3700c
+  flutter_test:
+    sdk: flutter

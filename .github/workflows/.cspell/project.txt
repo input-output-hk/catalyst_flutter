@@ -11,3 +11,9 @@ rustc
 rustdoc
 surrealdb
 testnet
+ccvault
+gerowallet
+nufi
+nami
+xcworkspace
+xcassets
